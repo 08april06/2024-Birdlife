@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <div class="box">
+        <div class="login-wrapper">
+        <form method="post" action="서버의url" id="login-form">
+            <input type="text" name="userName" placeholder="ID 또는 이메일">
+            <input type="password" name="userPassword" placeholder="패스워드">
+            <label for="remember-check">
+                <input type="checkbox" id="remember-check">     로그인 상태 유지
+            </label>
+            <input type="submit" value="Login">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
