@@ -9,7 +9,7 @@ main {
 }
 
 h1 {
-    background-color: rgba(255, 255, 255, 0.586);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -20,7 +20,7 @@ h1 {
 
 .navbar ul {
     list-style: none;
-    background-color: #D6FFD0;
+    background-color: #bed8dc;
     padding: 0;
     margin: 0;
     display: flex;
@@ -34,7 +34,7 @@ h1 {
 
 .navbar a {
     font-weight: 1000;
-    color: #4BA63B;
+    color: #607683;
     text-decoration: none;
     padding: 1rem;
     display: block;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .navbar a:hover {
-    background-color: #b3faa8;
+    background-color: #98d1e3;
 }
 
 .navbar li {
