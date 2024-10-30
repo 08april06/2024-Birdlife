@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/KakaoTalk_20240925_170646229.png);
+    background-image: url(img/Loginbackground.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -9,7 +9,7 @@ body {
     align-items: center;
     font-size: 0.875rem; 
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 .logo {

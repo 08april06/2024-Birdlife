@@ -1,0 +1,92 @@
+body {
+    background-image: url(img/Loginbackground.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.box {
+    margin-top: 0; 
+    background-color: #fffcaf85;
+    padding: 1.875rem; 
+    border-radius: 2.5rem; 
+    width: 28.125rem; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1); 
+}
+
+.login-wrapper {
+    width: 100%; 
+    padding: 1.25rem; 
+}
+
+.btn_area {
+    text-align: center;
+}
+
+.Logo {
+    width: 6.25rem; 
+    height: auto;
+    margin-bottom: 1.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign {
+    text-align: center;
+}
+
+.sign th, .sign td {
+     
+    padding: 0.5rem; 
+    vertical-align: middle;
+}
+
+.textForm {
+    width: calc(100% - 20px);
+    padding: 0.5rem;
+    font-size: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+    margin-bottom: 1rem; 
+}
+
+.btn {
+    padding: 0.5rem 1rem; 
+    margin-left: 10px; 
+    cursor: pointer;
+}
+.cancel-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #FFEFA0;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.signup-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #FFEFA0;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
