@@ -24,7 +24,7 @@ body {
 .box {
     background-color: #fffcaf85;
     padding: 1.875rem; 
-    border-radius: 2.5rem; 
+    border-radius: 2.5rem;  
     width: 28.125rem; 
     height: auto;
     display: flex;
