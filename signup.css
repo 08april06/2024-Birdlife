@@ -81,7 +81,7 @@ fieldset {
 }
 .signup-button {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; 
     background-color: #FFEFA0;
     color: white;
     text-decoration: none;
