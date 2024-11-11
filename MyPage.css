@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  *{
+    font-family: 'GmarketSansMedium';
+  }
+  body{
+    background-image: url(img/Mainbackground.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  :root {
+      --text-color: #4BA63B;
+      --background-color: #B2E8A9;
+      }
+    
+    .body {
+      margin: 0;
+      font-family: 'Montserrat';
+      background-image: url(img/Mainbackground.png);}
+    
+    a {
+      text-decoration: none;
+      color: var(--text-color);}
+    
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--background-color);
+      padding: 8px 9px;
+      font-size: 1.5rem;
+      line-height: 0.8rem;
+      }
+  
+      
+  .nav_logo {
+      font-size: 24px;
+      color: var(--text-color);}
+    
+    .nav_logo i {
+      color: var(--accent-color);}
+    
+    .nav_logo span {
+      color: var(--accent-color);}
+    
+    .nav_menu {
+      display: flex;
+      list-style: none;
+      padding-left: 0;}
+    
+    .nav_menu li {
+      padding: 8px 12px;
+    }
+    #left{
+      padding-right: 35rem;
+    }
+  
+    .nav_menu a:hover{
+      color: #172b14;
+      font-weight: 300;
+    }
+    
+    .nav_icons {
+      display: flex;
+      color: #7dc0ff;
+      list-style: none;
+      padding-left: 0;}
+    
+    .nav_icons li {
+      padding: 8px 5px;}
+    
+    .navbar_toggleBtn {
+      display: none;
+      color:var(--text-color);
+      position: absolute;
+      right: 32px;
+      font-size: 24px;}
+    #desk{
+      position: absolute;
+      left: 600px;
+     bottom: -50px;
+    }
+  
