@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link rel="stylesheet" href="HomeCSS.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메인 페이지</title>
+  <link href="HomeCSS.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-      <div class="nav_logo">
-        <i class="fa-solid fa-star"></i>
-        <a href="">Let's go to the <span>library!</span></a>
-      </div>
-      <ul class="nav_menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">Location Information</a></li>
-        <li><a href="">Book Information</a></li>
-        <li><a href="">FQA</a></li>
-        <li><a href="">More Information</a></li>
-      </ul>
-      <ul class="nav_icons">
-        <li><i class="fa-brands fa-twitter"></i></li>
-        <li><i class="fa-brands fa-facebook"></i></li>
-      </ul>
-      <a href="#" class="navbar_toggleBtn">
-        <i class="fa-solid fa-bars"></i>
-      </a>
+  <header>
+    <img src="img/Logo.png" alt="사이트 로고" class="logo">
+
+    <nav class="nav-center">
+      <span><a href="">독서록 / 쓰기</a></span>
+      <span>I</span>
+      <span><a href="">마이페이지</a></span>
     </nav>
-  </body>
+  </div>
+
+  <input type="checkbox" id="menuicon">
+  <label for="menuicon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <div class="sidebar"><img src="img/info.png"></div>
+  </header>
+
+  <div id="desk">
+    <img src="img/desk.png" height="700rem" width="auto">
+  </div>
+</body>
 </html>
