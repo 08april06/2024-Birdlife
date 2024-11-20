@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    font-family: 'GmarketSansMedium';
+  }
+
 body {
     background-image: url(img/Loginbackground.png);
     background-size: cover;
@@ -10,6 +21,7 @@ body {
     font-size: 0.875rem; 
     font-family: 'Roboto', sans-serif;
 }
+
 .logo {
     width: 6.25rem; 
     height: auto;
@@ -43,13 +55,12 @@ body {
     padding: 0 0.625rem;
     margin-bottom: 1rem; 
     border-radius: 0.375rem; 
-    background-color: #F0F0F0;
     border: none;
 }
 
 #login-form > input::placeholder {
     color: #8E8E8E;
-}
+} 
 
 #login-form > input[type="submit"] {
     color: #000000;
@@ -75,6 +86,31 @@ body {
     background-image: url("checkbox.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+input[type="text"] {
+    background-color: #F0F0F0; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+input[type="password"] {
+    background-color: #F0F0F0; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+input[type="button"] {
+    background-color: #FFEFA0;
+    color: #8E8E8E;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
 }
 
 .links {

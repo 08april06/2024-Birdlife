@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+  * {
+    font-family: 'GmarketSansMedium';
+  }
+
 body {
     background-image: url(img/Loginbackground.png);
     display: flex;
@@ -54,6 +65,7 @@ fieldset {
 } 
 
 .textForm {
+    background-color: #F0F0F0;
     width: calc(100% - 20px);
     padding: 0.5rem;
     font-size: 1rem; 
@@ -72,7 +84,7 @@ fieldset {
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: #FFEFA0;
-    color: white;
+    color: #8E8E8E;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -83,7 +95,7 @@ fieldset {
     display: inline-block;
     padding: 0.5rem 1rem; 
     background-color: #FFEFA0;
-    color: white;
+    color: #8E8E8E;
     text-decoration: none;
     border: none;
     border-radius: 5px;
