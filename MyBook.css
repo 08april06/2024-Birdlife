@@ -10,11 +10,11 @@
   }
   
   body {
-    background-image: url(img/mountains-6479150_1280\ 1.jpg);
-    background-size: cover;
+    background-image: url(img/Group\ 23.png);
+    background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 105vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -28,7 +28,7 @@
   .body {
     margin: 0;
     font-family: 'Montserrat';
-    background-image: url(img/mountains-6479150_1280\ 1.jpg);
+    background-image: url(img/Group\ 23.png);
   }
   
   a {
@@ -41,9 +41,10 @@
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
-    padding: 0.5rem 0.5625rem;
+    padding: 2% 5rem;
     font-size: 1.5rem;
     line-height: 0.05rem;
+    list-style: none;
   }
   
   .nav_logo {
