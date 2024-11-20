@@ -60,7 +60,7 @@ body {
 
 #login-form > input::placeholder {
     color: #8E8E8E;
-}
+} 
 
 #login-form > input[type="submit"] {
     color: #000000;

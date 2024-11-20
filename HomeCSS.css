@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  gap: 5px;
+  gap: 5px; 
 }
 
 .menu div {
