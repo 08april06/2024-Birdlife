@@ -10,11 +10,16 @@
     <div class="box"> 
         <img src="img/Logo.png" class="logo">
         <div class="login-wrapper">
+            <form method="post" id="login-form"> <!--서버의 url에 저장될 서버?... 쓰는데 서버를 못만듦... 저게 뭐임?..-->
+                <input type="text" name="username" placeholder="ID 또는 이메일" required>
+                <input type="password" name="password" placeholder="패스워드" required>
+                <label for="remember-check">
+                    <input type="checkbox" id="remember-check">
             <form id="login-form">
                 <input type="text" name="username" placeholder="ID 또는 이메일" required>
                 <input type="password" name="password" placeholder="패스워드" required>
                 <label for="remember-check">
-                    <input type="checkbox" id="remember-check"> 로그인 상태 유지
+                    <input type="checkbox" id="remember-check">
                 </label>
                 <div class="lgbtn"></div>
                 <input type="button" value="로그인" onclick="redirectToHomePage()">
@@ -22,7 +27,7 @@
                 <div class="links">
                     <a href="HomePage.html">아이디 찾기</a>
                     |
-                    <a href="">비밀번호 찾기</a>
+                    <a href="HomePage.html">비밀번호 찾기</a>
                     |
                     <a href="signup.html" class="signup-button">회원가입</a>
                 </div>
