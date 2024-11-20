@@ -86,3 +86,89 @@ input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%; transform: t
 
 div[class="sidebar"] {width: 400px; height: 100%; background: #222; position: fixed; top:0; right: -400px; z-index: index 0; transition: all .35s;}
 input[id="menuicon"]:checked + label + div {right: 0;}
+=======
+  overflow: hidden;
+}
+
+:root {
+  --text-color: #4BA63B;
+  --background-color: #B2E8A9;
+}
+
+.body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background-image: url(img/Mainbackground.png);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 0.5rem 0.5625rem;
+  font-size: 1.5rem;
+  line-height: 0.05rem;
+}
+
+.nav_logo {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.nav_logo i {
+  color: var(--accent-color);
+}
+
+.nav_logo span {
+  color: var(--accent-color);
+}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav_menu li {
+  padding: 0.5rem 0.75rem;
+}
+
+#left {
+  padding-right: 2.1875rem;
+}
+
+.nav_menu a:hover {
+  color: #172b14;
+  font-weight: 300;
+}
+
+.nav_icons {
+  display: flex;
+  color: #7dc0ff;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav_icons li {
+  padding: 0.5rem 0.3125rem;
+}
+
+.navbar_toggleBtn {
+  display: none;
+  color: var(--text-color);
+  position: absolute;
+  right: 2rem;
+  font-size: 1.5rem;
+}
+
+#desk {
+  position: absolute;
+  left: 37.5rem;
+  bottom: -3.125rem;
+}
